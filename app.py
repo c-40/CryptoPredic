@@ -113,4 +113,5 @@ def before_request():
 
 if __name__ == "__main__":
     # Use the 'Agg' backend to avoid GUI-related issues
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
